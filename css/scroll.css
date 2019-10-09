@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: rgb(255, 128, 128);
+}
+.yellow{
+    background-color: rgba(255, 255, 4, 0.918);
+}
+.green{
+    background-color: greenyellow;
+}
+section h2{
+    animation: arrow 1s infinite;
+}
+section a{
+    text-decoration: none;
+    color: #000;
+    font-size:2em;
+}
+@keyframes arrow{
+    50% { transform: translateY(.5vh);}
+}
